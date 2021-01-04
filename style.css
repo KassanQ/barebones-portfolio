@@ -1,0 +1,100 @@
+
+	body {
+		margin: 0%;
+		font-size: 20px;
+		background-color: #f1fdfd;
+		font-family: tahoma;
+		overflow: auto;
+		}
+		
+		h3{
+			text-align: center;
+		}
+
+	
+		#navBar {
+			
+			overflow: hidden;
+		background-color: #e2eefd;
+		
+		
+		}
+		
+		
+		#navBar a{
+		float: left;
+			display: block;
+		
+			text-align: center;
+			text-decoration: none; 
+		
+			padding: 10px 15px; 
+		
+			color:#1a1414;
+		}
+		#navBar a:hover  {
+			text-shadow: #2e2c2cc0 1px 0px 10px
+			
+		
+		}
+		#navBar a.active{
+		 	color: black;
+			background-color: white;
+			
+			border-radius: 15px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			display: block;
+		}
+		
+		.sticky{ 
+			background: #000000;
+			color: #CCCCCC;
+			padding: 10px 0px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		 
+		.content{
+			padding: 10px;
+		}
+		
+		.sticky + .content{
+			padding: 10;
+		
+		}
+		@media (device-width ){
+			
+		}
+	
+		.Container {
+		display:grid;
+			width: 800px;
+		grid-template-columns:repeat(3,1fr);
+		grid-template-rows: repeat(2,150px);
+		row-gap: 1em;
+		column-gap: 1em;
+			margin-top: 120px;
+			margin-left: auto;
+			margin-right: auto;
+			
+			
+		}
+	.Container-projectTab{
+		
+		background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+/*   padding: 20px; */
+  font-size: 150%;
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	}
+	.Container-projectTab:hover{
+background-color: aquamarine;
+	color: #444;
+
+}
